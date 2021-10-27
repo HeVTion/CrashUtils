@@ -1,0 +1,3 @@
+rootProject.name = "My Application4"
+include ':app'
+include ':Crashlibrary'
