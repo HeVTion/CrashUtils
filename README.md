@@ -1,0 +1,2 @@
+# CrashUtils
+Global catch exception
