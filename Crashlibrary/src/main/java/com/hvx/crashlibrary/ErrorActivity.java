@@ -1,17 +1,15 @@
 package com.hvx.crashlibrary;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.method.ScrollingMovementMethod;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-
-import androidx.appcompat.app.AppCompatActivity;
-
 import com.test.crashlibrary.R;
 
-public class ErrorActivity extends AppCompatActivity {
+public class ErrorActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

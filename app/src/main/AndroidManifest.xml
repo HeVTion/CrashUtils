@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
         tools:replace="android:appComponentFactory">
 
         <activity android:name="com.hvx.crashlibrary.ErrorActivity" />
@@ -20,8 +20,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:launchMode="singleTask"
-            android:theme="@style/Theme.MyApplication4.NoActionBar">
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

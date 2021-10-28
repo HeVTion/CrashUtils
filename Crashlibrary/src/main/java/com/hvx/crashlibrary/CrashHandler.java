@@ -10,8 +10,6 @@ import android.os.Build;
 import android.provider.Settings;
 import android.util.Log;
 
-import androidx.annotation.NonNull;
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -55,7 +53,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
     }
 
     @Override
-    public void uncaughtException(@NonNull Thread thread, @NonNull Throwable ex) {
+    public void uncaughtException(Thread thread, Throwable ex) {
         if (crashListener != null) {
             crashListener.CrashInfo(ex);
         } else {
