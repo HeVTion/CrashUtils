@@ -12,7 +12,7 @@
 步骤 2.添加依赖项
 
 	dependencies {
-	        implementation 'com.github.HeVTion:CrashUtils:1.0.1'
+	        implementation 'com.github.HeVTion:CrashUtils:1.0.4'
 	}
   
 使用我:
